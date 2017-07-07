@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Dancing Script;
+	background: #02010a;
+}
+.container {
+  width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: justify;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;}
+.wrapper{
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+}
+.menu{
+	background: #5b7989;
+}
+.c1 {
+	background-color: #5b7989;
+	border-radius: 10px 10px 0 0 ;
+}
+.c2 {
+	background-color: #82c3a6;
+	display: flex;
+	flex-flow: row wrap;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 10px;
+}
+
+.c3 {
+	background-color: #d5c75f;
+	display: flex;
+	flex-flow: row wrap;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 10px;
+	flex-direction: row;
+}
+
+.imagen1,.imagen2 {
+	background: #d5c75f;
+	width: 300px;
+	height: 200px;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 10px;
+}
+.imagen {
+	background: #82c3a6;
+	width: 300px;
+	height: 200px;
+	box-sizing: border-box;
+	padding: 20px;
+}
+#imagenes img{
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+#imagenes img:hover{
+	width: 50%;
+}
+
+.c4 {
+	background-color: #C6d5c5;
+	border-radius:  0 0 10px 10px ;
+	display: flex;
+	flex-flow: row wrap;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 5px;
+
+}
+.c41, .c42, .c43, .c44{
+  background-color: #C6d5c5;
+	flex-direction: row;
+	box-sizing: border-box;
+	text-align: justify;
+	margin:0.5px;
+	padding: 30px;
+	font-size: 0.7em;
+}
+.c43 img{
+	width: 10px;
+}
+ .logo{
+  color: #fff;
+  font-size: 25px;
+  float: left;
+}
+ nav{
+  float: right;
+  line-height: 20px;
+}
+ nav a{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+}
+ nav a:hover{
+  background: #82c3a6;
+  border-radius: 50px;
+}
+
+.c1, .c2, .c3, .c4 {
+	width: 100%;
+}
+
+@media (max-width: 900px) {
+	.menu {
+		width: 100%;
+	}
+	.c1, .c2, .c3, .c4 {
+		width: 100%;
+	}
+	.c41, .c42, .c43, .c44 {
+		width: 80%;
+	}
+	.imagen1, .imagen2{
+		width: 50%;
+	}
+}
